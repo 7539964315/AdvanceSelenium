@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Default suite has Started]]>
+    </line>
+    <line>
+      <![CDATA[browser opend sucessfuly and navigated to login page]]>
+    </line>
+    <line>
+      <![CDATA[logged in sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[addaddress is Started ]]>
+    </line>
+    <line>
+      <![CDATA[addaddress is succesfully executed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-03-09T15:17:02 IST" name="Default suite" finished-at="2024-03-09T15:17:29 IST" duration-ms="26437">
+    <groups>
+      <group name="smoke">
+        <method signature="AddAdressTest.addaddress()[pri:0, instance:testscripts.AddAdressTest@3590fc5b]" name="addaddress" class="testscripts.AddAdressTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2024-03-09T15:17:02 IST" name="Default test" finished-at="2024-03-09T15:17:29 IST" duration-ms="26437">
+      <class name="testscripts.AddAdressTest">
+        <test-method is-config="true" signature="openbrowser()[pri:0, instance:testscripts.AddAdressTest@3590fc5b]" started-at="2024-03-09T15:17:02 IST" name="openbrowser" finished-at="2024-03-09T15:17:07 IST" duration-ms="4636" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[browser opend sucessfuly and navigated to login page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:testscripts.AddAdressTest@3590fc5b]" started-at="2024-03-09T15:17:07 IST" name="login" finished-at="2024-03-09T15:17:17 IST" duration-ms="10272" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logged in sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="addaddress()[pri:0, instance:testscripts.AddAdressTest@3590fc5b]" started-at="2024-03-09T15:17:17 IST" name="addaddress" finished-at="2024-03-09T15:17:22 IST" duration-ms="5278" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[addaddress is Started ]]>
+            </line>
+            <line>
+              <![CDATA[addaddress is succesfully executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addaddress -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testscripts.AddAdressTest@3590fc5b]" started-at="2024-03-09T15:17:22 IST" name="logout" finished-at="2024-03-09T15:17:29 IST" duration-ms="6171" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <span class="BaseBadge-root MuiBadge-root css-1rzb3uu">...</span> is not clickable at point (1448, 34). Other element would receive the click: <div id="i6kccmw" class="Toastify__toast Toastify__toast-theme--light Toastify__toast--success Toastify--animate Toastify__bounce-exit--top-right" style="--nth: 1; --len: 1;">...</div>
+  (Session info: chrome=122.0.6261.112)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [050b92c795a9c46c42dd8ae1416eb972, clickElement {id=f.906F3232169E7BB4396B4A5CE7F332EA.d.6096E1B91D99070FB419D421235751BB.e.44}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.111 (9d4c1072da6..., userDataDir: C:\Users\Sukaram\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51862}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51862/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (050b92c795a9c46c42dd8ae1416eb972)] -> xpath: //span[@class='BaseBadge-root MuiBadge-root css-1rzb3uu']]
+Session ID: 050b92c795a9c46c42dd8ae1416eb972]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="BaseBadge-root MuiBadge-root css-1rzb3uu">...</span> is not clickable at point (1448, 34). Other element would receive the click: <div id="i6kccmw" class="Toastify__toast Toastify__toast-theme--light Toastify__toast--success Toastify--animate Toastify__bounce-exit--top-right" style="--nth: 1; --len: 1;">...</div>
+  (Session info: chrome=122.0.6261.112)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [050b92c795a9c46c42dd8ae1416eb972, clickElement {id=f.906F3232169E7BB4396B4A5CE7F332EA.d.6096E1B91D99070FB419D421235751BB.e.44}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.111 (9d4c1072da6..., userDataDir: C:\Users\Sukaram\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51862}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51862/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (050b92c795a9c46c42dd8ae1416eb972)] -> xpath: //span[@class='BaseBadge-root MuiBadge-root css-1rzb3uu']]
+Session ID: 050b92c795a9c46c42dd8ae1416eb972
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+at baseclass.BaseClass.logout(BaseClass.java:85)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:779)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:755)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:testscripts.AddAdressTest@3590fc5b]" started-at="2024-03-09T15:17:29 IST" name="closebrowser" finished-at="2024-03-09T15:17:29 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- testscripts.AddAdressTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
